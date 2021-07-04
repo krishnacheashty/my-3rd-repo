@@ -147,19 +147,65 @@ p{
     width: 100%;
     display: flex;
     padding-left: 30px;
+    background-image: url("png/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 60px;
+    
 }
+.text-1st{
+    width: 40%;
+    box-shadow:10px 7px 40px;
+    padding-left: 5px;
+    margin:10px 70px 100px 30px ; 
+    height: 50vh;
+    border-radius: 5px;
+    
+   
+
+
+} 
 .frist{
-    width: 50%;
-    margin-left:50px ;
-    margin-right: 50px;
-    box-shadow:10px 10px 10px 8px  rgba(83, 73, 73, 0.589);
-    border-image-slice: 1 8 4 ;
-    margin-bottom: 150px;
-    margin-top: 50px;
-
-
+    width: 40%;
+    box-shadow:10px 7px 40px ;
+    padding-left: 5px;
+    margin:10px 70px 100px 10px ; 
+   
+    height: 50vh;
+    border-radius: 5px;
 }
+
+
+
 .roi{
     padding-left: 50px;
-    padding-top: 150px;
+    padding: 150px 0 50px 20px;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+#rock{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+
+}
+#rock1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#21e673, #680ae4) 30;
+    border-image-slice: 1;
+
+
+}
+.hero{
+    font-size: 15px;
+    text-align: center;
+}
+.fab-icon{
+    font-size: 25px;
+    font-weight: 400;
+    color: greenyellow;
+   align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 48%;
 }
