@@ -12,11 +12,14 @@
     height: 60px;
     background-color:rgba(64, 41, 168, 0.685) ;
     position: relative;
-    border-radius: 5px;
+    
     
 }
+/* ////////////////////for portfolio logo///////////// */
+
+
 .fal{
-    color: rgba(207, 9, 9, 0.781) ;
+    color: rgba(39, 241, 3, 0.952) ;
 }
 .pot{
     color: white;
@@ -30,7 +33,8 @@
     padding-left: 150px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border:hidden;
+    border:hidden; 
+    
     
 }
 .half-navber1{
@@ -92,6 +96,7 @@ img{
     font-weight: 700;
     padding: 10px 0 40px 5px;
     text-align: left;
+    color: lightcoral;
 
 }
 .user-name{
@@ -141,8 +146,15 @@ p{
     background-image: url("png/dream-bg.png");
     background-repeat: no-repeat;
     background-position-x: right;
+    background-position-y: 190px;
 
 }
+
+
+
+/* .............3rd section............ */
+
+
 .main{
     width: 100%;
     display: flex;
@@ -181,6 +193,7 @@ p{
     padding: 150px 0 50px 20px;
     font-size: 50px;
     font-weight: 700;
+    text-shadow: 5px 7px 5px gray;
     
 }
 #rock{
@@ -196,16 +209,21 @@ p{
 
 
 }
+/* ........fotter section............ */
+.footer{
+    background-color: rgba(222, 234, 241, 0.459);
+}
 .hero{
     font-size: 15px;
     text-align: center;
+    padding-top: 25px;
 }
 .fab-icon{
     font-size: 25px;
     font-weight: 400;
     color: greenyellow;
    align-items: center;
-    padding-bottom: 20px;
     padding-top: 20px;
-    padding-left: 48%;
+    padding-left: 47%;
+    letter-spacing: 5px;
 }
