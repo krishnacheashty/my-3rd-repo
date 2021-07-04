@@ -189,8 +189,7 @@ p{
 
 
 .roi{
-    padding-left: 50px;
-    padding: 150px 0 50px 20px;
+    padding: 150px 0 150px 20px;
     font-size: 50px;
     font-weight: 700;
     text-shadow: 5px 7px 5px gray;
@@ -216,7 +215,7 @@ p{
 .hero{
     font-size: 15px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 5px;
 }
 .fab-icon{
     font-size: 25px;
